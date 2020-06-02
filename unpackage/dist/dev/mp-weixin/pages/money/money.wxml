@@ -1,0 +1,1 @@
+<view><view class="flex-column"><view class="money"><image class="money-img" src="../../static/img/money1.png" mode></image></view><view class="txt1">我的零钱</view><view class="txt2">¥982392.02</view><view class="txt3">转入零钱通，给自己加加薪</view><button type="primary">充值</button><button type="default">提现</button></view></view>

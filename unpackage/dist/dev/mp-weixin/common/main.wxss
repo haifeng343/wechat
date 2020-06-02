@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page{
+	background-color: #f5f5f5;
+}
+uni-page-head {
+	display: none;
+}
+.container{
+	width: 100%;
+	height: auto;
+	font-size: 32rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	background-color: #fff;
+}
+.content{
+	width: 100%;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 0 4%;
+}
+._a{
+	color: #333333;
+	text-decoration: none;
+}
+

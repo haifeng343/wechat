@@ -1,0 +1,150 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "微信"
+			}
+		}
+	    ,{
+            "path" : "pages/list/list",
+            "style" : {
+				"navigationBarTitleText":"通讯录"
+			}
+        }
+        ,{
+            "path" : "pages/demo/demo",
+            "style" : {
+				"navigationBarTitleText":"demo"
+			}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {
+				"navigationBarTitleText":"我的"
+			}
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" : {
+				"navigationBarTitleText":"发现"
+			}
+        }
+        ,{
+            "path" : "pages/mac/mac",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" : {
+				"navigationBarTitleText":"个人信息"
+			}
+        }
+        ,{
+            "path" : "pages/avator/avator",
+            "style" : {
+				"navigationBarTitleText":"头像"
+			}
+        }
+        ,{
+            "path" : "pages/editName/editName",
+            "style" : {
+				"navigationBarTitleText":"更改名字"
+			}
+        }
+        ,{
+            "path" : "pages/qrCode/qrCode",
+            "style" : {
+				"navigationBarTitleText":"二维码名片"
+			}
+        }
+        ,{
+            "path" : "pages/editMore/editMore",
+            "style" : {
+				"navigationBarTitleText":"更多信息"
+			}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText":"支付"
+			}
+        }
+        ,{
+            "path" : "pages/wallet/wallet",
+            "style" : {
+				"navigationBarTitleText":"钱包"
+			}
+        }
+        ,{
+            "path" : "pages/money/money",
+            "style" : {
+				"navigationBarTitleText":"零钱"
+			}
+        }
+        ,{
+            "path" : "pages/parent/parent",
+            "style" : {
+				"navigationBarTitleText":"亲属卡"
+			}
+        }
+        ,{
+            "path" : "pages/yinhang/yinhang",
+            "style" : {
+				"navigationBarTitleText":"银行卡"
+			}
+        }
+        ,{
+            "path" : "pages/linqian/linqian",
+            "style" : {
+				"navigationBarTitleText":"零钱通"
+			}
+        }
+        ,{
+            "path" : "pages/chat/chat",
+            "style" : {
+				"navigationBarTitleText":""
+			}
+        }
+    ],
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#1afa29",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/img/msg.png",
+	        "selectedIconPath": "static/img/msgs.png",
+	        "text": "微信"
+	    }, {
+	        "pagePath": "pages/list/list",
+	        "iconPath": "static/img/call.png",
+	        "selectedIconPath": "static/img/calls.png",
+	        "text": "通讯录"
+	    }, {
+	        "pagePath": "pages/find/find",
+	        "iconPath": "static/img/find.png",
+	        "selectedIconPath": "static/img/finds.png",
+	        "text": "发现"
+	    },{
+	        "pagePath": "pages/my/my",
+	        "iconPath": "static/img/mine.png",
+	        "selectedIconPath": "static/img/mines.png",
+	        "text": "我"
+	    }
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	}
+}

@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/demo/demo",
+    "pages/my/my",
+    "pages/find/find",
+    "pages/mac/mac",
+    "pages/userInfo/userInfo",
+    "pages/avator/avator",
+    "pages/editName/editName",
+    "pages/qrCode/qrCode",
+    "pages/editMore/editMore",
+    "pages/address/address",
+    "pages/pay/pay",
+    "pages/wallet/wallet",
+    "pages/money/money",
+    "pages/parent/parent",
+    "pages/yinhang/yinhang",
+    "pages/linqian/linqian",
+    "pages/chat/chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#1afa29",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/msg.png",
+        "selectedIconPath": "static/img/msgs.png",
+        "text": "微信"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "iconPath": "static/img/call.png",
+        "selectedIconPath": "static/img/calls.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/img/find.png",
+        "selectedIconPath": "static/img/finds.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/img/mine.png",
+        "selectedIconPath": "./static/img/mines.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

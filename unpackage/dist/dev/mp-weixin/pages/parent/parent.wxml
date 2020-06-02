@@ -1,0 +1,1 @@
+<view><view class="flex-column"><view class="money"><image class="money-img" src="../../static/img/w_kabao.png" mode></image></view><view class="txt1">亲属卡</view><view class="txt2">送父母子女亲属卡</view><view class="txt2">对方消费由我买单</view><view class="txt2">让支付更简单</view><button type="default">赠送</button></view></view>
